@@ -51,6 +51,30 @@ p {
     margin-top: 8px;
 }
 
+.password-box {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.password-box input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.password-box button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#secret {
+    color: lime;
+    font-size: 24px;
+}
+
+#error {
+    color: red;
+}
+
 .spin {
     animation: spin 1.5s linear infinite;
 }
